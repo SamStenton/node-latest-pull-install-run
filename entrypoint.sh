@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone $1 app
+git clone --single-branch --branch $2 $1 app
 cd app
 yarn install
 yarn start

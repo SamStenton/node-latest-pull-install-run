@@ -7,4 +7,4 @@ WORKDIR /usr/src
 ADD ./entrypoint.sh /usr/src/
 RUN chmod +x /usr/src/entrypoint.sh
 
-ENTRYPOINT ["/usr/src/entrypoint.sh", "https://github.com/Asciant/hello-world"]
+ENTRYPOINT ["/usr/src/entrypoint.sh", "https://github.com/Asciant/hello-world", "master"]
